@@ -110,8 +110,21 @@ body {
   font-size: 20px;
 }
 
+/* style item */
 .item-selling-container {
-  margin-top: 50px;
-  height: 60%;
+  margin-top: 20px;
+  height: 40%;
+  padding: 10px;
   border: 0.5px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-x: auto;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  border: 0.5px solid white;
+  padding: 10px;
 }
