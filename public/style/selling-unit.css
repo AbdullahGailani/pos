@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #212121;
+}
+.sell-desc {
+  height: 100vh;
+  color: white;
+}
+.sell-container h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+.sell-container {
+  background: rgb(8, 158, 158);
+  padding: 25px;
+}
+.list-item {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+.input1 {
+  padding: 7px;
+  background: #151515;
+  color: white;
+}
+.input2 {
+  padding: 7px;
+  background: #151515;
+  color: white;
+}
+.input3 {
+  padding: 7px;
+  background: #151515;
+  color: white;
+}
+.input4 {
+  padding: 7px;
+  background: #151515;
+  color: white;
+}
+.input5 {
+  padding: 7px;
+  background: #151515;
+  color: white;
+}
+.input6 {
+  padding: 7px;
+  background: #151515;
+  color: white;
+}
+.input7 {
+  padding: 7px;
+  background: #151515;
+  color: white;
+}
+.btn5 {
+  border-radius: 100%;
+  margin-top: 12px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #151515;
+  cursor: pointer;
+  background: rgb(200, 50, 50);
+  color: white;
+  font-size: 20px;
+}
+.btn6 {
+  border-radius: 100%;
+  margin-top: 12px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #151515;
+  cursor: pointer;
+  background: green;
+  color: white;
+  font-size: 20px;
+}
+.btn7 {
+  border-radius: 100%;
+  margin-top: 12px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #151515;
+  cursor: pointer;
+  background: rgb(123, 123, 63);
+  color: white;
+  font-size: 20px;
+}
+.btn8 {
+  border-radius: 100%;
+  margin-top: 12px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #151515;
+  cursor: pointer;
+  background: rgb(20, 86, 137);
+  color: white;
+  font-size: 20px;
+}
+
+.item-selling-container {
+  margin-top: 50px;
+  height: 60%;
+  border: 0.5px solid white;
+}
