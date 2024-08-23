@@ -12,21 +12,28 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/drug.png" />
   </head>
   <body>
     <!-- start section -->
     <div class="login-form">
       <div class="user-form form">
         <div class="user-img">
-          <i class="fa-solid fa-user-group fa-2xl" style="color: #ffffff"></i>
+          <i
+            class="fa-solid fa-user-group fa-2xl login-icon"
+            style="color: #ffffff"
+          ></i>
         </div>
-        <h1>User</h1>
+        <h1 class="login-type">User</h1>
       </div>
       <div class="admin-form form">
         <div class="admin-img">
-          <i class="fa-solid fa-user-tie fa-2xl" style="color: #fff"></i>
+          <i
+            class="fa-solid fa-user-tie fa-2xl login-icon"
+            style="color: #fff"
+          ></i>
         </div>
-        <h1>Admin</h1>
+        <h1 class="login-type">Admin</h1>
       </div>
     </div>
 
@@ -35,20 +42,30 @@
       <div class="login-user-form">
         <h1>Enter User Name and Password</h1>
         <div class="login-input">
-          <input type="text" placeholder="UserName" />
+          <input
+            type="text"
+            placeholder="UserName"
+            class="username"
+            value="admin"
+          />
           <i class="fa-solid fa-lock icon" style="color: #ffffff"></i>
         </div>
         <div class="login-input">
-          <input type="password" placeholder="password" class="password" />
+          <input
+            type="password"
+            placeholder="password"
+            class="password"
+            value="admin"
+          />
           <i class="fa-solid fa-user icon" style="color: #ffffff"></i>
         </div>
-        <button type="submit" class="btn">Login</button>
+        <button type="submit" class="btn btn-login">Login</button>
       </div>
     </div>
 
     <!-- //////////////////  -->
     <div class="hero hidden">
-      <div class="sec">
+      <div class="sec selling">
         <div class="sec-img">
           <img src="./images/store.png" alt="" />
         </div>
@@ -110,6 +127,76 @@
       </div>
     </div>
 
+    <!-- sell unit  -->
+    <div class="sell selling hidden">
+      <div class="sell-container">
+        <div class="sell-desc">
+          <h1 class="time">18/ 4 / 2024 , 12:24:PM</h1>
+          <h1 class="section-name">Selling Unit</h1>
+          <h1 class="company-name">MainDrugs</h1>
+        </div>
+        <div class="list-item">
+          <div>
+            Barcode
+            <p>
+              <input
+                class="input-barcode input-selling-unit barcode"
+                type="text"
+              />
+            </p>
+          </div>
+          <div>
+            Medicin Name
+            <p><input class="input-name input-selling-unit" type="text" /></p>
+          </div>
+          <div>
+            Type
+            <p><input class="input-type input-selling-unit" type="text" /></p>
+          </div>
+          <div>
+            <button type="button" class="btn-minus btn-selling">-</button>
+          </div>
+          <div>
+            How Many
+            <p>
+              <input
+                class="input-qunty input-selling-unit"
+                type="text"
+                value="0"
+              />
+            </p>
+          </div>
+          <div>
+            <button type="button" class="btn-plus btn-selling">+</button>
+          </div>
+          <div>
+            Price
+            <p><input class="input-price input-selling-unit" type="text" /></p>
+          </div>
+          <!-- <div>
+            Sell Result
+            <p><input class="input-result input-selling-unit" type="text" /></p>
+          </div> -->
+          <div>
+            Expiration Date
+            <p><input class="input-expire input-selling-unit" type="text" /></p>
+          </div>
+          <div>
+            <button type="button" class="btn7 btn-selling">#</button>
+          </div>
+          <div>
+            <button type="button" class="btn8 btn-selling">&</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="item-container"></div>
+
+      <!-- total -->
+      <div class="total-price"></div>
+    </div>
+
+    <!-- //////////////////  -->
     <script src="./index.js"></script>
   </body>
 </html>

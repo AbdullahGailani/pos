@@ -139,6 +139,109 @@ body {
 .sec-title {
   font-size: 32px;
 }
+/* selling unit */
+
+.sell {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 100vh;
+  color: white;
+  width: 100%;
+}
+.sell-container {
+  background: rgb(8, 158, 158);
+  width: 100%;
+  padding: 20px 0px;
+  height: 20vh;
+}
+.sell-desc {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
+  align-items: center;
+}
+.time {
+  font-size: 25px !important;
+}
+.sell-container h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.item-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.item-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  overflow: scroll;
+}
+.selling-unit-item {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #151515;
+  border: 0.5px solid white;
+  border-radius: 25px;
+}
+.list-item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 25px;
+  padding: 10px;
+}
+
+.input-selling-unit {
+  padding: 7px;
+  background: #151515;
+  color: white;
+  border: 0.5px solid white;
+  outline-color: red;
+  font-size: 14px;
+}
+.input-selling-unit:active {
+  border: 0.5px solid red;
+}
+.btn-selling {
+  border-radius: 100%;
+  /* margin-top: 12px; */
+  width: 50px;
+  height: 50px;
+  border: 2px solid #151515;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.btn-selling:hover {
+  border: 0.5px solid white;
+}
+.btn-minus {
+  background: rgb(200, 50, 50);
+}
+.btn-plus {
+  background: green;
+}
+.btn7 {
+  background: rgb(123, 123, 63);
+}
+.btn8 {
+  background: rgb(20, 86, 137);
+}
+
+/* responsive code */
 
 @media (max-width: 1150px) {
   .hero {
@@ -148,7 +251,6 @@ body {
     font-size: 28px;
   }
 }
-
 @media (max-width: 768px) {
   .hero {
     grid-template-columns: repeat(2, 1fr);
